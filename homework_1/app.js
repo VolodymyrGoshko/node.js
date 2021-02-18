@@ -33,7 +33,6 @@ function moveToBoy() {
 
 moveToBoy()
 
-
 //Перекидає дівчат
 function moveToGirl() {
     fs.readdir(dirname2000, (err, files) => {
