@@ -3,7 +3,7 @@ const path = require('path');
 const fs = require('fs');
 const {promisify} = require('util');
 
-const dataPath = path.join(__dirname, 'dataBase', 'users.json');
+const dataPath = path.join(process.cwd(), 'dataBase', 'users.json');
 
 const message = require('../message/messages');
 
